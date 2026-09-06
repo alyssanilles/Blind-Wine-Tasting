@@ -5,8 +5,8 @@ Peptide-based colorimetric sensor array for red wine discrimination using UV-vis
 A 14-sensor peptide array, using three indicator-metal chemistries (Cu²⁺–PCV, Cu²⁺–CAS, Ni²⁺–BPR), was applied to 12 red wines across a 384-well plate design with 6 replicates per wine. Absorbance was recorded from 350-800 nm at 2 nm intervals. The analysis covers wavelength selection by ANOVA F-statistic, dimensionality reduction (PCA, UMAP), classification by LDA under nested leave-one-out cross-validation, and hierarchical clustering.
 
 ## Repository Structure
-data/raw -> Plate reader exports (.xlsx)
-data/processed/ -> Tidied datasets produced by the import notebooks
+data/raw -> Plate reader exports (.xlsx);
+data/processed/ -> Tidied datasets produced by the import notebooks;
 notebooks/ -> Analysis Notebooks
 
 ## Running order
